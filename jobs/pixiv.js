@@ -133,13 +133,13 @@ class Pixiv {
         referer: url_r18,
       });
 
-      console.log(illust_url);
-
       // first image
       const illust_image_xpath = `//figure//a[@rel='noopener']/img`;
       const { res, msg } = await waitFor(page, illust_image_xpath);
       if (!res) {
         // 可能是动图
+        console.log("这个有问题", illust_url, msg);
+        return;
       }
 
       const [expand_all_button] = await page.$x(`//button[contains(.,'查看全部')]`);
@@ -150,6 +150,8 @@ class Pixiv {
         const { res, msg } = await waitFor(page, illust_image_xpath);
         if (!res) {
           // 可能是动图
+          console.log("这个有问题", illust_url, msg);
+          return;
         }
       }
 

@@ -4,7 +4,7 @@ const wait = (ms, rand_ext) => {
   });
 };
 
-const waitFor = async (page, selector, timeout = 180000) => {
+const waitFor = async (page, selector, timeout = 15000) => {
   if (!selector) {
     return;
   }
