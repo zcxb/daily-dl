@@ -1,0 +1,9 @@
+{
+  "pixiv": {
+    "account": "YOUR_PIXIV_ACCOUNT",
+    "pwd": "YOUR_PIXIV_PASSWORD"
+  },
+  "_2captcha": {
+    "apikey": "YOUR_2CAPTCHA_API_KEY"
+  }
+}

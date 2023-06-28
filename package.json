@@ -1,0 +1,30 @@
+{
+  "name": "daily-dl",
+  "version": "0.1.0",
+  "description": "每日下载爬虫",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.10",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.10.6",
+    "fake-ua": "^1.0.4",
+    "fs-extra": "^10.0.0",
+    "iconv-lite": "^0.6.3",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.0.0",
+    "node-stream-zip": "^1.15.0",
+    "node-xlsx": "^0.17.2",
+    "puppeteer": "^19.10.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "qs": "^6.10.1"
+  }
+}

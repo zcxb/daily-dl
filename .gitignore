@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+/dist
+/configs/config.json
+*_dl/
+*_cookies.json
